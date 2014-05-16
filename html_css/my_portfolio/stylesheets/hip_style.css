@@ -1,0 +1,33 @@
+/* stylesheet for hipsters.html*/
+
+h1 {
+	color: blue;
+}
+
+p{
+	color: green
+}
+
+em {
+	color red
+}
+
+u {
+	color: yellow;
+	background-color: red;
+}
+
+.second {
+color: black;
+background-color: pink
+}
+
+.first{ 
+background-color: purple
+}
+
+.third {
+	background-color: orange
+}
+
+
