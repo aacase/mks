@@ -1,0 +1,26 @@
+.left {
+	width:220px;
+	padding: 10px;
+	float:left;
+	background-color: blue;
+}
+
+.center{
+	width: 507px;
+	padding:10px;
+	float:left;
+	background-color: red;
+}
+
+.right {
+	width: 220px;
+	padding:10px;
+	float: right;
+	background-color: yellow;
+
+}
+
+.header {
+	padding:10px;
+	background-color: green;
+}
