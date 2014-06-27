@@ -7,8 +7,10 @@ module Punch #this module is to be included in the powerranger and evil ninja cl
     elsif strength > 5
       person.scream
       person.run
-      @caffeine_level -= 1
-      puts "#{@name} punched #{person.name} so hard he somersaulted!"
+      @caffeine_level -= 20
+      if caffeine_level > 20 ;puts "#{@name} punched #{person.name} so hard he somersaulted!"
+    	else puts "#{@name} punched #{person.name} so hard he somersaulted! #{@name} looks tired. Maybe drink some coffee?"
+    	end	
     end
   end
 end
@@ -28,7 +30,7 @@ class Person
 
 	def status 
 		puts "#{name} is currently hovering at a caffeine level around #{caffeine_level}"
-		if caffeine_level < 50
+		if caffeine_level < 20
 			puts "wow! #{name} must be tired! Try drinking some coffee!"
 		else
 			puts "#{name} is adequately caffeinated!"
@@ -107,6 +109,9 @@ def fight_scene
 	ritarepulsa.cause_mayhem(jeremy)
 	
 	redranger.punch(ben, 20)
+	redranger.status
+	redranger.punch(ben, 20)
+	redranger.status
 	ben.scream
 	ben.drink_coffee
 	lordzed.cause_mayhem(redranger)
