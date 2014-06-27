@@ -74,7 +74,7 @@ class Recipe
 	def spice_it_up
 		puts "What kind of hot sauce do you want to add?"
 		hotsauce=gets.chomp
-		@ingredients <<hotsauce
+		@ingredients <<" "+hotsauce
 		puts "#{hotsauce} was added to the ingredients list"
 	end
 	
