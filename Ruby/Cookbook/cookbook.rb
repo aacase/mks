@@ -44,17 +44,10 @@ class Cookbook
 		puts "You deleted #{recipe.title}."
 	end
 
-=begin	def random_recipe
-		@recipes.each do |recipe|
-=end
-=begin	def search_cookbook
-		puts "What Recipe are you looking for?"
-		search=gets.chomp
-		if search=recipe.ingredients, print_recipe
-		else puts "I can't find that. sorry"
-		end
-	end
-=end
+
+
+	
+
 
 end
 
@@ -76,6 +69,13 @@ class Recipe
 			puts  "#{counter}: " + step
 			counter = counter + 1
 		end
+	end
+
+	def spice_it_up
+		puts "What kind of hot sauce do you want to add?"
+		hotsauce=gets.chomp
+		@ingredients <<hotsauce
+		puts "#{hotsauce} was added to the ingredients list"
 	end
 	
 

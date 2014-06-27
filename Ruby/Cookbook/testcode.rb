@@ -36,3 +36,5 @@ mex_cuisine.print_cookbook
 
 mex_cuisine.delete_recipe(burrito)
 mex_cuisine.print_cookbook
+burrito.spice_it_up
+burrito.print_recipe
