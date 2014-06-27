@@ -63,7 +63,7 @@ class Recipe
 	
 	def print_recipe
 		puts title
-		puts ingredients.join(",")
+		puts ingredients.join(", ")
 		counter = 1
 		@steps.each do |step|
 			puts  "#{counter}: " + step
