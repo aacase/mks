@@ -1,0 +1,49 @@
+.wrapper{
+	width:100%;
+
+}
+.logo, .navbar{
+	float: left;
+	/*display: inline-block;*/
+	background-color: #dddddd;
+	height: 100%;
+}
+.logo{
+	width: 15%;
+}
+.navbar{
+	margin-left: 55%;
+	width: 30%;
+}
+
+.header, .footer{
+	width: 99%;
+	margin:1% auto;
+	height: 50px;
+}
+.hero, .footerbox{
+	background-color: #dddddd;
+	height: 100%;
+}
+.third{
+	width: 32.333%;
+	background-color: #dddddd;
+	float: left;
+	height: 100%;
+	margin: 0 0.5% 0 0.5%;
+	
+}
+
+.herowrapper, .features{
+	height: 300px;
+}
+.header, .herowrapper, .features, .footer{
+	margin: 0.5%;
+}
+.features{
+	margin: 0 auto;
+	width: 100%;
+}
+.footer{
+	margin-top: 0.5%;
+}
